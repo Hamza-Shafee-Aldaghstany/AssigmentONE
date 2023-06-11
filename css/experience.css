@@ -1,0 +1,18 @@
+.experience{
+border-style: solid  ;
+  border-width: 3px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction:column;
+  height: 50%;
+  width: 60%;
+  aspect-ratio:4;
+  align-items: start;
+  justify-content: space-around;
+  z-index:150;
+}
+.experience li{
+ font-size: 15px;
+font-family: Arial;
+list-style:disc;
+}
