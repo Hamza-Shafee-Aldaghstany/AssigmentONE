@@ -64,7 +64,7 @@ h1{
 .multi-text{
 
   color: grey;
-  font-size: 1em;
+  font-size: 1.5em;
 }
 p{
   display: block;
@@ -150,4 +150,5 @@ animation: animateUser 5s linear infinite;
 }
 .projects{
   font-family: Arial;
+  font-size: 30px;
 }
