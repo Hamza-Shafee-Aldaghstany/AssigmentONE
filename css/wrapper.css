@@ -7,14 +7,31 @@
   justify-content: center;
 
 }
+.cols00{ display: flex;
+  width: 50%;
+  height: 80vh;
+  align-items: end;
+  position: relative;
+}
+.col1{
 
-.cols{
+
   width: 50%;
 
   height: 100vh;
+  position: relative;
 }
 .col0{
+
+
+  border-radius: 2%;
+  margin-bottom: 5%;
+  width: 100%;
+
+  height: 90%;
   z-index: 1;
+  background-color: white;
+  position:relative;
 }
 .title-line{
   display: block;
@@ -39,9 +56,15 @@ h1{
   color: black;
   font-family: "Calibri Light";
 }
+.multi-text-header{
+  margin-left: 35%;
 
+
+}
 .multi-text{
-  color: gainsboro;
+
+  color: grey;
+  font-size: 1em;
 }
 p{
   display: block;
@@ -114,4 +137,17 @@ animation: animateUser 5s linear infinite;
 
 
   }
+}
+.image-hello{
+  display: flex;
+ height: 9%;
+  width: 100%;
+  flex-direction: row;
+
+
+  position: relative;
+
+}
+.projects{
+  font-family: Arial;
 }

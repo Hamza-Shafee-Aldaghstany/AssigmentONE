@@ -1,3 +1,7 @@
 body{
   background-color: cornflowerblue;
+  overflow: hidden;
+  padding-bottom: 100%;
+
 }
+
