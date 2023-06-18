@@ -1,0 +1,29 @@
+
+.img-box{
+  position:relative;
+  height: 50%;
+  width: 90%;
+  margin-left: 10px;
+
+
+}
+.img-box #jokeimage{
+;
+  position: absolute;
+  width: 100%;
+  max-height: 100%;
+
+}
+.col1 #titlepar{
+  color: black;
+  font-size: 30px;
+  margin-left: 10px;
+  font-weight: bold;
+
+}
+.col1 #datepar{
+  font-weight: bold;
+  margin-left: 10px;
+  color: black;
+  font-size: 23px;
+}
