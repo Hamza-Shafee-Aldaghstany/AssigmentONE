@@ -5,7 +5,7 @@ import terser from '@rollup/plugin-terser';
 // import typescript from 'typescript'
 export default {
   input: './ts/main.ts',
-  output: { file: './dist/bundle.js' },
+  output: { file: './Dist/bundle.js' },
   plugins: [typescript(),
     nodeResolve({ browser: true }),
     terser(),
